@@ -1,0 +1,125 @@
+.titulo {
+    font-size: 30px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; 
+    color: #fffd91;
+    text-align: center;
+    text-transform: uppercase; 
+    text-shadow:10px 1px 2px black;
+    font-family: 'Hammersmith One', sans-serif;
+}     
+body {
+    height: 2000px; 
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-image:url("fondo arriba 2.jpeg");
+    background-size: 1575px;
+    background-position: 2px;
+    color: #d93b3a;
+    padding: 20px;
+    text-align: center;
+
+}
+nav {
+    background-color: #2b2622;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    text-transform: lowercase;
+    font:bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #EB793D;
+    text-decoration:solid;
+    margin: 0 10px;
+    font-family: 'Hammersmith One', sans-serif;
+}
+section {
+    padding: 20px;
+    background-color: #d93b3a;
+}
+footer {
+    font-size: 20px;
+    background-color: #2b2622;
+    color: beige;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.pelicula2006 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow:0px 15px 25px rgba(0,0,0,0.50);
+
+
+}
+
+.textos {
+    font-family: 'Hammersmith One', sans-serif;
+    color: beige;
+    text-align: center;
+    text-shadow:0px 5px 25px rgba(0,0,0.50)
+
+}
+.silueta {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  
+}
+.pelicula2011 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow:0px 15px 25px rgba(0,0,0,0.50);
+}.pelicula2017 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow:0px 15px 25px rgba(0,0,0,0.50);
+}
+.peliculatrailer{
+    zoom: 10px;
+}
+.texto-en-movimiento {
+    color: beige;
+    font-family: 'Hammersmith One', sans-serif;
+    color: beige;
+    text-align: center;
+    text-shadow:0px 5px 25px rgba(0,0,0.50);
+    display: inline-block; 
+    margin-right: 20px; 
+    animation: moverTexto 10s linear infinite;
+}
+
+.contenedor {
+    width: 100%; 
+    overflow: hidden;
+    white-space: nowrap; 
+  }
+  img:hover {
+    transform:scale(1.01) ;
+    transition: 0.8s;
+  }
+  img {
+    transition: 0.8s;
+    border-color: 100px #2b2622;
+    border: 100px;
+  }
+ 
